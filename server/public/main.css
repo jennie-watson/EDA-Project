@@ -1,7 +1,7 @@
 body .content {
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
-	font-size: 20px;
+	font-size: 25px;
 }
 
 .container {
@@ -85,6 +85,7 @@ nav a:hover {
 
 .nav-link {
 	text-decoration: none;
+	color: black;
 }
 
 /* FOOTER */
@@ -100,8 +101,12 @@ body {
 .content { 
   flex: 1 0 auto; 
 } 
-.footer {   
-  flex-shrink: 0; 
+#footer {   
+	flex-shrink: 0;
+	text-align: left;
+	font-size: 15px;
+	background: #42A5F5;
+	color: white;
 }
   
   

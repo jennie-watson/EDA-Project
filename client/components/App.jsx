@@ -17,12 +17,12 @@ class App extends React.Component {
         <div className='app' className='container' className='content'>
           <Route path='/' component={Nav} />
           <Route exact path='/' component={Home} />
-          <Route path='/' component={Footer} />
           <Route path='/investing' component={Investing} />
           <Route path='/personalfinance101' component={Pf101} />
           <Route path='/resources' component={Resources} />
           <Route path='/savingtips' component={SavingTips} />
           <Route path='/contact' component={Contact} />
+          <Route path='/' component={Footer} />
         </div>
       </Router>
     )

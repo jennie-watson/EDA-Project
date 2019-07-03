@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Footer = () => (
-  <footer className="footer">
+  <footer id="footer">
     <p>© Kiwi Money Tips 2019</p>
   </footer>
 )
