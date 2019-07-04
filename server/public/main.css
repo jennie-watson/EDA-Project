@@ -5,8 +5,7 @@ html {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-  }
-
+}
 
 /* BODY */	
 html,
@@ -24,21 +23,19 @@ body {
 }
 
 p {
-	font-size: 25px;
+	font-size: 22px;
 	background-color: #ffffff86;
 	border-radius: 5px;
 	text-align:justify;
-	width: 95%
+	width: 85%
 }
 
 h1 {
 	background-color: #00152bc2;
 	color: white;
 	font-size: 70px;
-	/* margin-left: 140px;
-	margin-right: 140px; */
 	border-radius: 15px;
-	}
+}
 
 h2 {
 	background-color: #00152bc2;
@@ -47,19 +44,31 @@ h2 {
 	border-radius: 15px;
 }
 
-/* .container {
-  z-index: 10;
-} */
-
-.main-gif {
-	width: 95%;
+.main-image {
+	width: 50%;
 	display: block;
 }
 
+/* FOOTER */
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+/* INVESTING PAGE */
 #quote {
 	text-align: center;
-	display: inline-block;
-
 }
 
 .graph {
@@ -92,9 +101,9 @@ h2 {
 
 /* NAVIGATION BAR */
 nav {
-	width: 100vw;
+	width: 99vw;
 	height: 50px; /*adjust as necessary*/
-	background-color: #0b98de;
+	background-color: black;
 	overflow: hidden;
 	box-sizing: border-box;
 	border-radius: 10px;
@@ -133,7 +142,7 @@ nav a:hover {
 }
 
 /* FOOTER */
-html, 
+/* html, 
 body {   
   height: 100%; 
 } 
@@ -144,8 +153,8 @@ body {
  
 .content { 
   flex: 1 0 auto; 
-} 
-#footer {   
+}  */
+/* #footer {   
 	position: absolute;
 	width: 100%;
 	text-align: left;
@@ -159,14 +168,13 @@ body {
 
 .main-container {
 	min-height: 100vh; /* will cover the 100% of viewport */
-	overflow: hidden;
+	/* overflow: hidden;
 	display: block;
 	position: relative;
 	padding-bottom: 100px; /* height of your footer */
  }
 
-* {
-	box-sizing: border-box;
+	/* /* box-sizing: border-box;
 }
 body {
 	margin: 0;
@@ -177,8 +185,9 @@ h1 {
 }
 p {
 	margin: 0 0 20px 0;
-}
-footer {
-	background: #42A5F5;
+} */
+
+#footer {
+	background: black;
 	color: white;
 }
