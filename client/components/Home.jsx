@@ -4,9 +4,11 @@ class Home extends React.Component {
   render() {  
     return (
       <>
-        <div className="content">
+        <div className="content" cla>
           <h1>Kiwi Money Tips</h1>
-          <p>Kia ora and welcome to Kiwi Money Tips, where I share personal finance tips for the everyday New Zealander. I became really interested in personal finance a few years ago after reading a lot of books on personal finance and researching KiwiSaver providers. I want to share some of my knowledge I've gained along the way and help you get started on becoming more financially saavy.</p>
+          <p>Kia ora and welcome to Kiwi Money Tips, where I share personal finance tips for the everyday New Zealander. I first became interested in personal finance in 2017 and have gained a bit of knowledge along this way. I want to share some of this with you and help you get started on becoming more financially saavy.</p>
+
+          <img className="main-gif" src="./images/main-image.gif" alt="gif"></img>
         </div>
       </>
     )
